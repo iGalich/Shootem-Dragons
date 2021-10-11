@@ -46,3 +46,251 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+UserSettings/EditorUserSettings.asset
+ProjectSettings/XRSettings.asset
+ProjectSettings/VFXManager.asset
+ProjectSettings/VersionControlSettings.asset
+ProjectSettings/URPProjectSettings.asset
+ProjectSettings/UnityConnectSettings.asset
+ProjectSettings/TimeManager.asset
+ProjectSettings/TimelineSettings.asset
+ProjectSettings/TagManager.asset
+ProjectSettings/SceneTemplateSettings.json
+ProjectSettings/QualitySettings.asset
+ProjectSettings/ProjectVersion.txt
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/PresetManager.asset
+ProjectSettings/Physics2DSettings.asset
+ProjectSettings/PackageManagerSettings.asset
+ProjectSettings/NavMeshAreas.asset
+ProjectSettings/InputManager.asset
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/EditorSettings.asset
+ProjectSettings/EditorBuildSettings.asset
+ProjectSettings/DynamicsManager.asset
+ProjectSettings/ClusterInputManager.asset
+ProjectSettings/AudioManager.asset
+Packages/packages-lock.json
+Packages/manifest.json
+Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+Assets/TextMesh Pro/Sprites/EmojiOne.png
+Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+Assets/TextMesh Pro/Sprites/EmojiOne.json
+Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+Assets/TextMesh Pro/Sprites.meta
+Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+Assets/TextMesh Pro/Shaders/TMPro.cginc
+Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+Assets/TextMesh Pro/Shaders.meta
+Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+Assets/TextMesh Pro/Resources/TMP Settings.asset
+Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+Assets/TextMesh Pro/Resources/Style Sheets.meta
+Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+Assets/TextMesh Pro/Resources/Sprite Assets.meta
+Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+Assets/TextMesh Pro/Resources.meta
+Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+Assets/TextMesh Pro/Fonts.meta
+Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+Assets/TextMesh Pro/Documentation.meta
+Assets/TextMesh Pro.meta
+Assets/Scripts/iTween.cs.meta
+Assets/Scripts/iTween.cs
+Assets/Scenes/Test.unity.meta
+Assets/Scenes/Test.unity
+Assets/Scenes/MainMenu.unity.meta
+Assets/Scenes/MainMenu.unity
+Assets/Scenes.meta
+Assets/Prefab/SpreadUpgrade.prefab.meta
+Assets/Prefab/SpreadUpgrade.prefab
+Assets/Prefab/PlayerBullet.prefab.meta
+Assets/Prefab/PlayerBullet.prefab
+Assets/Prefab/HealthUpgrade.prefab.meta
+Assets/Prefab/HealthUpgrade.prefab
+Assets/Prefab/FireBall.prefab.meta
+Assets/Prefab/FireBall.prefab
+Assets/Prefab/Enemy.prefab.meta
+Assets/Prefab/Enemy.prefab
+Assets/Prefab/DmgUpgrade.prefab.meta
+Assets/Prefab/DmgUpgrade.prefab
+Assets/Prefab.meta
+Assets/Plugins/Pixelplacement/iTween.meta
+Assets/Plugins/Pixelplacement.meta
+Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+Assets/Plugins/GitHub/Editor/x86.meta
+Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+Assets/Plugins/GitHub/Editor/x64.meta
+Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+Assets/Plugins/GitHub/Editor/System.Threading.dll
+Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+Assets/Plugins/GitHub/Editor/sfw.net.dll
+Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+Assets/Plugins/GitHub/Editor/libsfw.so.meta
+Assets/Plugins/GitHub/Editor/libsfw.so
+Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+Assets/Plugins/GitHub/Editor/libsfw.bundle
+Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+Assets/Plugins/GitHub/Editor/eula.txt.meta
+Assets/Plugins/GitHub/Editor/eula.txt
+Assets/Plugins/GitHub/Editor/credits.txt.meta
+Assets/Plugins/GitHub/Editor/credits.txt
+Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+Assets/Plugins/GitHub/Editor/big-logo@2x.png
+Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+Assets/Plugins/GitHub/Editor.meta
+Assets/Plugins/GitHub.meta
+Assets/Plugins.meta
+Assets/PiplelineAsset/PiplelineAsset.asset.meta
+Assets/PiplelineAsset/PiplelineAsset.asset
+Assets/PiplelineAsset/2dRenderer.asset.meta
+Assets/PiplelineAsset/2dRenderer.asset
+Assets/PiplelineAsset.meta
+Assets/Materials/Dragons.mat.meta
+Assets/Materials/Dragons.mat
+Assets/Materials.meta
+Assets/Fonts/8blimro.ttf.meta
+Assets/Fonts/8blimro.ttf
+Assets/Fonts/8bitlimr.ttf.meta
+Assets/Fonts/8bitlimr.ttf
+Assets/Fonts/8bitlimo.ttf.meta
+Assets/Fonts/8bitlimo.ttf
+Assets/Fonts/8bitlimit.txt.meta
+Assets/Fonts/8bitlimit.txt
+Assets/Fonts/8bitlim.ttf.meta
+Assets/Fonts/8bitlim.ttf
+Assets/Fonts/8bitlim SDF.asset.meta
+Assets/Fonts/8bitlim SDF.asset
+Assets/Fonts.meta
+Assets/Artwork/Artwork/upgradesIcon.png.meta
+Assets/Artwork/Artwork/upgradesIcon.png
+Assets/Artwork/Artwork/player 1.png.meta
+Assets/Artwork/Artwork/player 1.png
+Assets/Artwork/Artwork/heart.png.meta
+Assets/Artwork/Artwork/heart.png
+Assets/Artwork/Artwork/EnemyDragon.png.meta
+Assets/Artwork/Artwork/EnemyDragon.png
+Assets/Artwork/Artwork/EnemyDragon 1.png.meta
+Assets/Artwork/Artwork/EnemyDragon 1.png
+Assets/Artwork/Artwork/DragonFireBall.png.meta
+Assets/Artwork/Artwork/DragonFireBall.png
+Assets/Artwork/Artwork/dragonbaby.png.meta
+Assets/Artwork/Artwork/dragonbaby.png
+Assets/Artwork/Artwork/dragon.png.meta
+Assets/Artwork/Artwork/dragon.png
+Assets/Artwork/Artwork/bullet.png.meta
+Assets/Artwork/Artwork/bullet.png
+Assets/Artwork/Artwork/background.png.meta
+Assets/Artwork/Artwork/background.png
+Assets/Artwork/Artwork.meta
+Assets/Artwork/Animations/playerIdle.anim.meta
+Assets/Artwork/Animations/playerIdle.anim
+Assets/Artwork/Animations/playerDeath.anim.meta
+Assets/Artwork/Animations/playerDeath.anim
+Assets/Artwork/Animations/Player.controller.meta
+Assets/Artwork/Animations/Player.controller
+Assets/Artwork/Animations/Hearts.controller.meta
+Assets/Artwork/Animations/Hearts.controller
+Assets/Artwork/Animations/heart.anim.meta
+Assets/Artwork/Animations/heart.anim
+Assets/Artwork/Animations/FireBall.controller.meta
+Assets/Artwork/Animations/FireBall.controller
+Assets/Artwork/Animations/fireball.anim.meta
+Assets/Artwork/Animations/fireball.anim
+Assets/Artwork/Animations/EnemyDragonIdle_0.controller.meta
+Assets/Artwork/Animations/EnemyDragonIdle_0.controller
+Assets/Artwork/Animations/enemyDragonIdle.anim.meta
+Assets/Artwork/Animations/enemyDragonIdle.anim
+Assets/Artwork/Animations/enemyDragonDeath.anim.meta
+Assets/Artwork/Animations/enemyDragonDeath.anim
+Assets/Artwork/Animations/Enemy.controller.meta
+Assets/Artwork/Animations/Enemy.controller
+Assets/Artwork/Animations.meta
+Assets/Artwork.meta
+Assets/_GamesPlusJames Menu Assets/Particle/Particle_Circle.png.meta
+Assets/_GamesPlusJames Menu Assets/Particle/Particle_Circle.png
+Assets/_GamesPlusJames Menu Assets/Particle/particle2.mat.meta
+Assets/_GamesPlusJames Menu Assets/Particle/particle2.mat
+Assets/_GamesPlusJames Menu Assets/Particle/particle1.mat.meta
+Assets/_GamesPlusJames Menu Assets/Particle/particle1.mat
+Assets/_GamesPlusJames Menu Assets/Particle/Particle System.prefab.meta
+Assets/_GamesPlusJames Menu Assets/Particle/Particle System.prefab
+Assets/_GamesPlusJames Menu Assets/Particle.meta
+Assets/_GamesPlusJames Menu Assets.meta

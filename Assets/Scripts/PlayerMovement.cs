@@ -23,11 +23,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * movespeed;
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //shoot
-        }
+        if (Player.Instance.IsAlive)
+            rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * movespeed;
     }
 }

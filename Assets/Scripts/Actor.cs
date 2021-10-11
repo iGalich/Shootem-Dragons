@@ -1,23 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
-using BulletPro;
 
 
 public class Actor : MonoBehaviour
 {
+    [SerializeField] private int minHealth;
 
     [SerializeField] protected int health;
 
     protected float firerate;
 
-    private Rigidbody2D rb;
+    protected Rigidbody2D rb;
+
+    protected BoxCollider2D boxCollider2D;
 
     protected bool isAlive = true;
 
+    public int MinHealth => minHealth;
     public bool CurrState => isAlive;
-    public virtual void OnHitByBullet(Bullet bullet, Vector3 hitPoint)
+    protected virtual void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+    }
+    public virtual void OnHitByBullet()
     {
         Debug.Log(this.name + " received damaged! Ouch!");
     }
