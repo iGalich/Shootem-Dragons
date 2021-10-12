@@ -67,7 +67,7 @@ public class AudioManager : MonoBehaviour
 
         if (!name.Equals(GetCurrentlyPlaying()) && s.isMusic && GetCurrentlyPlaying() != null)
         {
-            Mute(GetCurrentlyPlaying());
+            //Mute(GetCurrentlyPlaying());
         }
 
         if (s.isMusic)
@@ -93,7 +93,7 @@ public class AudioManager : MonoBehaviour
         if (name.Equals(GetCurrentlyPlaying()))
             return;
 
-        if (!name.Equals(GetCurrentlyPlaying()) && s.isMusic && GetCurrentlyPlaying() != null)
+        if (/*!name.Equals(GetCurrentlyPlaying()) &&*/ s.isMusic && GetCurrentlyPlaying() != null)
         {
             Mute(GetCurrentlyPlaying());
         }

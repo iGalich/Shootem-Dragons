@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyBulletPool : MonoBehaviour
 {
-    public static EnemyBulletPool Instance { get; private set; }
+    //public static EnemyBulletPool Instance { get; private set; }
 
     [SerializeField] private GameObject pooledBullet;
 
@@ -14,10 +14,10 @@ public class EnemyBulletPool : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        //if (Instance == null)
+        //    Instance = this;
+        //else
+        //    Destroy(gameObject);
     }
     private void Start()
     {

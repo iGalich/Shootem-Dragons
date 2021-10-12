@@ -14,34 +14,43 @@ public class Upgrade : MonoBehaviour
     [SerializeField] private UpgradeType upgradeType;
 
     private BoxCollider2D boxCollider2D;
+    private ParticleSystem particles;
 
     private void Start()
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
+        particles = GetComponentInChildren<ParticleSystem>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.Instance.Play("Upgrade");
+
             switch (upgradeType)
             {
                 case UpgradeType.Health:
-                    Player.Instance.Health++;
-                    Hud.Instance.AddHeart();
+                    GameManager.Instance.player.Health++;
+                    GameManager.Instance.hud.AddHeart();
                     break;
                 case UpgradeType.Damage:
-                    Player.Instance.Damage += 2;
+                    GameManager.Instance.player.Damage++;
                     break;
                 case UpgradeType.Spread:
                     UpgradeSpread();
                     break;
             }
-            UpgradeSpawner.Instance.DestroyUpgrades();
+            GameManager.Instance.upgradeSpawner.DestroyUpgrades();
         }
     }
     private void UpgradeSpread()
     {
-        Player.Instance.FirePlayerBullets.IncreaseBulletsAmount(2);
-        Player.Instance.FirePlayerBullets.ChangeAngle(15f);
+        GameManager.Instance.player.FirePlayerBullets.IncreaseBulletsAmount(2);
+        GameManager.Instance.player.FirePlayerBullets.ChangeAngle(15f);
+    }
+    private void OnDestroy()
+    {
+       var system = Instantiate(particles, transform.position, transform.rotation);
+        system.Play();
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public static EnemySpawner Instance { get; private set; }
+    //public static EnemySpawner Instance { get; private set; }
 
     [SerializeField] private Transform[] spawnPoints;
 
@@ -17,10 +17,10 @@ public class EnemySpawner : MonoBehaviour
     public GameObject EnemyPrefab { get => enemyPrefab; set => enemyPrefab = value; }
     private void Awake()
     {
-        if (Instance is null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        //if (Instance is null)
+        //    Instance = this;
+        //else
+        //    Destroy(gameObject);
     }
     private void Start()
     {

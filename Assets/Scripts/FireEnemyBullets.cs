@@ -16,6 +16,8 @@ public class FireEnemyBullets : MonoBehaviour
     }
     private void Fire()
     {
+        AudioManager.Instance.Play("DragonFire");
+
         float angleStep = (endAngle - startAngle) / bulletsAmount;
         float angle = startAngle;
 
@@ -27,7 +29,8 @@ public class FireEnemyBullets : MonoBehaviour
             Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
-            GameObject bul = EnemyBulletPool.Instance.GetBullet();
+            //GameObject bul = EnemyBulletPool.Instance.GetBullet();
+            GameObject bul = GameManager.Instance.enemyBulletPool.GetBullet();
             bul.transform.position = transform.position;
             bul.transform.rotation = transform.rotation;
             bul.SetActive(true);

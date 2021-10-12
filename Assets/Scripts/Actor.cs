@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    [SerializeField] private int minHealth;
+    [SerializeField] protected int minHealth;
 
     [SerializeField] protected int health;
 

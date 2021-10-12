@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    public static CameraManager Instance { get; private set; }
+    //public static CameraManager Instance { get; private set; }
 
     // Transform of the GameObject you want to shake
     private Transform transform;
@@ -23,10 +23,12 @@ public class CameraManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance is null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        //if (Instance is null)
+        //    Instance = this;
+        //else
+        //    Destroy(gameObject);
+
+        
 
         if (transform == null)
             transform = GetComponent(typeof(Transform)) as Transform;

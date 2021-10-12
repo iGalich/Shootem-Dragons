@@ -2,24 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBulletsPool : MonoBehaviour
+public class BossBulletPool : MonoBehaviour
 {
-
-    //public static PlayerBulletsPool Instance { get; private set; }
-
     [SerializeField] private GameObject pooledBullet;
 
     private bool notEnoughBulletsInPool = true;
 
     private List<GameObject> bullets;
-
-    private void Awake()
-    {
-        //if (Instance == null)
-        //    Instance = this;
-        //else
-        //    Destroy(gameObject);
-    }
     private void Start()
     {
         bullets = new List<GameObject>();

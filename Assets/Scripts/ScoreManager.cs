@@ -38,6 +38,8 @@ public class ScoreManager : MonoBehaviour
         switch (level)
         {
             case 0:
+                if (highScoreText == null)
+                    highScoreText = GameObject.Find("Canvas/Highscore").GetComponent<TextMeshProUGUI>();
                 highScore = PlayerPrefs.GetInt("HighScore", 0);
                 highScoreText.text = "Highscore : " + highScore.ToString();
                 break;
@@ -50,6 +52,7 @@ public class ScoreManager : MonoBehaviour
     public void ScoreUp()
     {
         score += 1 + combo;
+        iTween.ShakePosition(scoreText.gameObject, Vector3.one * 5f, 0.2f);
         combo++;
         UpdateScore();
     }
@@ -60,8 +63,24 @@ public class ScoreManager : MonoBehaviour
     public void CheckScore()
     {
         if (score > PlayerPrefs.GetInt("HighScore", 0))
+        {
             highScore = score;
+            GameManager.Instance.hud.EnableNewHighScoreText();
+            GameManager.Instance.hud.EnableNewHighScoreTextInCredits();
+        }
 
         PlayerPrefs.SetInt("HighScore", highScore);
+    }
+    public void BossHit()
+    {
+        score += 1 + combo;
+        iTween.ShakePosition(scoreText.gameObject, Vector3.one * 5f, 0.2f);
+        UpdateScore();
+    }
+    public void BossKilled()
+    {
+        score *= 10;
+        iTween.ShakePosition(scoreText.gameObject, Vector3.one * 5f, 2f);
+        UpdateScore();
     }
 }

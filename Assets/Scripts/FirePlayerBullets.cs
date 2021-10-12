@@ -15,7 +15,15 @@ public class FirePlayerBullets : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButton("Jump") && Time.time - lastBullet > bulletCooldown && Player.Instance.IsAlive)
+        if (MainMenu.Instance.ToggleAutoFire.isOn)
+        {
+            if (Time.time - lastBullet > bulletCooldown && GameManager.Instance.player.IsAlive)
+            {
+                Fire();
+                lastBullet = Time.time;
+            }
+        }
+        else if (Input.GetButton("Jump") && Time.time - lastBullet > bulletCooldown && GameManager.Instance.player.IsAlive)
         {
             Fire();
             lastBullet = Time.time;
@@ -23,6 +31,8 @@ public class FirePlayerBullets : MonoBehaviour
     }
     private void Fire()
     {
+        AudioManager.Instance.Play("PlayerShoot");
+
         float angleStep = (endAngle - startAngle) / bulletsAmount;
         float angle = startAngle;
 
@@ -34,7 +44,7 @@ public class FirePlayerBullets : MonoBehaviour
             Vector3 bulMoveVector = new Vector3(bulDirX, bulDirY, 0f);
             Vector2 bulDir = (bulMoveVector - transform.position).normalized;
 
-            GameObject bul = PlayerBulletsPool.Instance.GetBullet();
+            GameObject bul = GameManager.Instance.playerBulletPool.GetBullet();
             bul.transform.position = transform.position;
             bul.transform.rotation = transform.rotation;
             bul.SetActive(true);

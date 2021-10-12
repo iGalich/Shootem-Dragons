@@ -30,14 +30,17 @@ public class Enemy : Actor
         if (collision.CompareTag("Player"))
         {
             OnHitByBullet();
+            collision.GetComponent<Bullet>().Destroy();
         }
     }
     public override void OnHitByBullet()
     {
         if (!isAlive) return;
 
+        AudioManager.Instance.Play("BossDragonDie");
         iTween.ShakePosition(this.gameObject , Vector3.one * 0.08f, 0.2f);
-        health -= Player.Instance.Damage;
+        //health -= Player.Instance.Damage;
+        health -= GameManager.Instance.player.Damage;
         if (health <= 0)
             Death();
     }
@@ -50,7 +53,10 @@ public class Enemy : Actor
         anim.SetTrigger("Dead");
         Enemy.EnemyCount--;
         if (Enemy.EnemyCount == 0)
+        {
+            GameManager.Instance.SpawningEnemies = false;
             GameManager.Instance.FunctionTimerCreated = false;
+        }
         FunctionTimer.Create(() => Destroy(gameObject), 1f);
     }
     private void MoveIntoScreen()

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UpgradeSpawner : MonoBehaviour
 {
-    public static UpgradeSpawner Instance { get; private set; }
+    //public static UpgradeSpawner Instance { get; private set; }
 
     [SerializeField] private Transform[] spawnPoints;
 
@@ -12,10 +12,11 @@ public class UpgradeSpawner : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance is null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        //if (Instance is null)
+        //    Instance = this;
+        //else
+        //    Destroy(gameObject);
+
     }
     public void SpawnUpgrades()
     {

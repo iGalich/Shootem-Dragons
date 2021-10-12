@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public static PlayerMovement Instance { get; private set; }
+    //public static PlayerMovement Instance { get; private set; }
 
     [SerializeField] private float movespeed = 2f;
 
@@ -12,10 +12,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance is null)
-            Instance = this;
-        else
-            Destroy(gameObject);
+        //if (Instance is null)
+        //    Instance = this;
+        //else
+        //    Destroy(gameObject);
+
     }
     private void Start()
     {
@@ -23,7 +24,8 @@ public class PlayerMovement : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (Player.Instance.IsAlive)
+        //if (Player.Instance.IsAlive)
+        if (GameManager.Instance.player.IsAlive)
             rb.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * movespeed;
     }
 }
